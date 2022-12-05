@@ -26,7 +26,9 @@
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gw3-EC-nU8">
                         <rect key="frame" x="30" y="504" width="40" height="40"/>
                         <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="92W-Gz-nfV"/>
                             <constraint firstAttribute="height" constant="40" id="RF6-Ld-G0Q"/>
+                            <constraint firstAttribute="width" constant="40" id="xSd-pV-eEy"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -92,8 +94,6 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <constraints>
-                <constraint firstItem="gw3-EC-nU8" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" multiplier="0.0779727" id="Aee-la-Pfh"/>
-                <constraint firstItem="gw3-EC-nU8" firstAttribute="height" secondItem="KGk-i7-Jjw" secondAttribute="height" multiplier="0.0601504" id="BmL-Kh-aL5"/>
                 <constraint firstItem="4TK-Ep-NIh" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" multiplier="0.0779727" id="PBn-Ho-aUq"/>
                 <constraint firstItem="Lsc-4W-f8A" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" multiplier="0.3" id="RiE-wP-qvf"/>
             </constraints>

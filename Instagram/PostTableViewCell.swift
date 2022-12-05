@@ -85,6 +85,8 @@ class PostTableViewCell: UITableViewCell {
                 self.comentsLabel.text! = allComents
             }
         }
+        
+        comentsLabel.lineBreakMode = .byWordWrapping
            
     }
     
